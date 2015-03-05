@@ -3,7 +3,7 @@
 # How to set crontab
 #
 # $ crontab -e;
-# 0 9 * * * ruby /home/XXXXX/MySQL_backup/backup_to_s3.rb 2>&1 | logger -t backup_to_s3.rb
+# 0 9 * * * ruby /home/XXXXXXXXXXXXX/MySQL_backup/backup_to_s3.rb 2>&1 | logger -t backup_to_s3.rb
 
 # -*- coding: utf-8 -*-
 require 'rubygems'
